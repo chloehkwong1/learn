@@ -6,3 +6,5 @@ gem 'guard-rspec', require: false
 gem 'rspec'
 gem 'sinatra'
 gem 'redcarpet'
+gem 'solargraph', group: :development
+gem 'readapt', group: :development
