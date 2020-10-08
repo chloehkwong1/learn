@@ -31,7 +31,7 @@ describe ListTopics do
     )
   end
 
-  xit 'can order 4 topics correctly' do
+  it 'can order 4 topics correctly' do
     path = create_directory!('four-topics')
 
     create_topic!(path, title: '05-Csh-The-Second')
