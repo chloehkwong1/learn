@@ -1,7 +1,7 @@
 class ListTopics
   def execute(directory:)
-    @directories = Dir.glob("#{directory}/**/README")
-
+    @directories = Dir.glob("#{directory}/**/README.md")
+    puts "directories: #{@directories}, directory: #{directory}"
     return { topics: [] } if @directories.empty?
 
     { topics: to_presentable_topics(topics) }
