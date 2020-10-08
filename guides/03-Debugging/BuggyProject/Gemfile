@@ -8,3 +8,4 @@ gem 'sinatra'
 gem 'redcarpet'
 gem 'solargraph', group: :development
 gem 'readapt', group: :development
+
